@@ -9,7 +9,7 @@
 #import <UIKit/UIKit.h>
 
 @interface Train : NSObject
-@property (nonatomic, readonly) NSMutableString* value;
+@property (nonatomic, retain) NSString* value;
 @end
 
 @interface ViewController : UIViewController{
